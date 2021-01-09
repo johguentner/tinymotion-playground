@@ -5,10 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "tailwind": "npx tailwindcss build src/css/tailwind.css -o public/css/style.css"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.1",
     "core-js": "^3.6.5",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2",
+    "tinymotion": "^0.1.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
