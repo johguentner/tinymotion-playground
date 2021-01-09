@@ -15,8 +15,8 @@
 			<Motion
 				v-model="trigger"
 				:trigger="[
-					'rounded-none -translate-y-12 opacity-0 scale-75 h-0',
-					'translate-y-0 opacity-100 scale-100 h-12',
+					'rounded -translate-y-12  h-0',
+					'rounded-none translate-y-0 opacity-100 scale-100 h-12',
 					'mt-1 rounded',
 				]"
 				class="bg-green-600 hover:bg-green-700 cursor-pointer"
@@ -25,8 +25,8 @@
 			<Motion
 				v-model="trigger"
 				:trigger="[
-					'rounded-none -translate-y-12 opacity-0 scale-75 h-0',
-					'translate-y-0 opacity-100 scale-100 h-12',
+					'rounded -translate-y-12  h-0',
+					'rounded-none translate-y-0 opacity-100 scale-100 h-12',
 					'mt-1 rounded',
 				]"
 				class="bg-green-600 hover:bg-green-700 cursor-pointer"
@@ -34,8 +34,8 @@
 			<Motion
 				v-model="trigger"
 				:trigger="[
-					'rounded-none -translate-y-12 opacity-0 scale-75 h-0',
-					'translate-y-0 opacity-100 scale-100 h-12',
+					'rounded -translate-y-12  h-0',
+					'rounded-none translate-y-0 opacity-100 scale-100 h-12',
 					'mt-1 rounded',
 				]"
 				class="bg-green-600 hover:bg-green-700 cursor-pointer"
@@ -43,7 +43,7 @@
 			<Motion
 				v-model="trigger"
 				:trigger="[
-					'rounded-none -translate-y-12 opacity-0 scale-75 h-0',
+					'rounded -translate-y-12  h-0',
 					'translate-y-0 opacity-100 scale-100 h-12 rounded-b',
 					'mt-1 rounded',
 				]"
